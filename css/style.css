@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: #2f2f2f;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+
+.preloader {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3f4c6b+17,3f4c6b+64 */
+    background: #3f4c6b; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #3f4c6b 17%, #3f4c6b 64%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #3f4c6b 17%,#3f4c6b 64%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #3f4c6b 17%,#3f4c6b 64%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.logo {
+    width: 100px;
+    height: 80px;
+    margin: 20% auto;
+}
+
+.menu {
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    top: 28px;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul a {
+    font-weight: bold;
+    margin: 26px;
+    padding: 8px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu ul li a:hover {
+    color: #fff;
+}
+
+.menu .active a{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    border-radius: 6px;
+}
